@@ -9,6 +9,7 @@ namespace WFArbolBinario
     class Estudiante : Comparador
     {
         int Carne { get; set; }
+        int Nota { get; set; }
         String Nombre { get; set; }
 
         public Estudiante(int carne, String nombre)
